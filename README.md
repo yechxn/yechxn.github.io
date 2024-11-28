@@ -1,2 +1,2 @@
-# cds07012.github.io
+# yechxn.github.io
 Yechan Seo's Github
