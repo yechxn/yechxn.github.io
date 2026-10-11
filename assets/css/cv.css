@@ -41,3 +41,16 @@ h2{font-size:1.8em;font-weight:650;letter-spacing:-.04em;line-height:1.3}
 #work .news-content details li:last-child{margin-bottom:0}
 @media(max-width:736px){#work,#contact{font-size:14px}#work .publication-list>li{padding:20px}#work .paper-title{font-size:16px}#work .news-grid{grid-template-columns:1fr;gap:20px}#work .news-cover{height:160px}#home header p{font-size:14px;line-height:1.8}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+/* Keep the original text-left, portrait-right introduction at every width. */
+@media(max-width:980px){
+ #main>.panel.intro{flex-direction:row;align-items:stretch;height:auto;min-height:320px}
+ #main>.panel.intro header{width:64%;padding:32px 26px;text-align:left;align-self:center}
+ #main>.panel.intro .pic{width:36%;height:auto;align-self:stretch}
+ #main>.panel.intro header h1{font-size:38px}
+}
+@media(max-width:480px){
+ #main>.panel.intro header{padding:24px 18px}
+ #main>.panel.intro header h1{font-size:30px;letter-spacing:-.035em}
+ #main>.panel.intro header p{font-size:13px;line-height:1.65}
+ #main>.panel.intro .pic .arrow{font-size:16px;width:2.2em;height:2.2em;line-height:2.2em;margin-top:-1.1em}
+}
