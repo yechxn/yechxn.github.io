@@ -1,5 +1,4 @@
-@font-face{font-family:Pretendard;src:url('../fonts/PretendardVariable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
-body,input,textarea,select{font-family:Pretendard,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:400;letter-spacing:-.015em;color:#555a64}
+body,input,textarea,select{font-family:'Times New Roman',Times,serif;font-weight:400;letter-spacing:-.015em;color:#555a64}
 #work,#contact{font-size:15px;line-height:1.85}
 h1,h2,h3,h4,strong,b{font-family:inherit;color:#28313e}
 strong,b{font-weight:600}
